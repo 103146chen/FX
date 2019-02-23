@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset = UTF-8 >
+	<title>FX_Videos</title>
+	<link rel="Shortcut Icon" type="image/x-icon" href="https://cdn.shopify.com/s/files/1/1285/0147/products/sign-103a_01295939-3d2a-4d60-a177-7151d37d7644.png?v=1527227147">
+</head>
+<body style="background-color: #000000 ;">
+	<span style="">
+		
+	</span>
+	<img src = "https://cdn2.ettoday.net/images/1573/1573562.jpg" style = " display : block ; margin : auto;" >
+	<h1 align="center"><font color="white" face="標楷體">請注意!未滿十八歲不得進入網站</font></h1>
+	<h1 align="center">
+		<input type="button" value="我已年滿十八歲並同意前往" onclick="location.href='http://www.fdhs.tyc.edu.tw/school.htm'">
+		<input type="button" value="我未滿十八歲" onclick="location.href = 'https://www.google.com.tw/' ">
+	</h1>
+
+	<a id="a1" href="javascript:;" onclick="change()"><font color="orange">更多網站</font></a>
+	<div id="d1" style="background-color: blue ; font-size: 10px ; color: white; display: none;">
+		<div id="DP1">
+			<font color="gray" size="5px" face="標楷體">
+				<b>公司相關</b>
+			</font><br>
+			<a href="https://zh.wikipedia.org/zh-tw/%E5%A4%8D%E6%97%A6%E5%A4%A7%E5%AD%A6">
+				<font color="white">主公司簡介</font>
+			</a><br>
+			<a href="https://zh.wikipedia.org/zh-tw/%E6%A1%83%E5%9C%92%E5%B8%82%E7%A7%81%E7%AB%8B%E5%BE%A9%E6%97%A6%E9%AB%98%E7%B4%9A%E4%B8%AD%E5%AD%B8">
+				<font color="white">分公司簡介</font>
+			</a>
+		</div>
+
+		<div id="DP2">
+			<b><font color="gray" size="5px" face="標楷體">社群</font></b><br>
+			<a href="https://www.facebook.com/FuDanHighSchool/">
+				<font color="white">臉書平台</font>
+			</a><br>
+			<a href="https://www.facebook.com/pg/kaobeifudan/community/?ref=page_internal">
+				<font color="white">臉書聊天室</font>
+			</a>
+		</div>
+
+		<div id="DP3">
+			<b><font color="gray" size="5px" face="標楷體">評鑑</font></b><br>
+			<a href="https://udn.com/news/story/7266/3147434">
+				<font color="white">UDN報導</font>
+			</a><br>
+			<a href="https://udn.com/news/story/7324/2630097">
+				<font color="white">UDN評鑑</font>
+			</a>
+		</div>
+		
+		<div id="DP4">
+			<b><font color="gray" size="5px" face="標楷體">相關網站</font></b><br>
+			<a href="http://nas.fdhs.tyc.edu.tw/~voicefar/slick/60-celebration.html">
+				<font color="white">新版頁面</font>
+			</a><br>
+			<a href="http://www.fdhs.tyc.edu.tw/logo2/main_intro.htm">
+				<font color="white">網站簡介</font>
+			</a>
+		</div>
+		
+		<div id="DP5">
+			<b><font color="gray" size="5px" face="標楷體">公開附件</font></b><br>
+			<a href="http://www.fdhs.tyc.edu.tw/fdhs_plan_105-108.pdf">
+				<font color="white">發展計畫</font>
+			</a><br>
+			<a href="http://nas.fdhs.tyc.edu.tw/~ruby/account/index2.htm">
+				<font color="white">收支概況</font>
+			</a>
+		</div>	
+	</div>
+
+	<script>
+	var isShow = false;
+	function change() {
+		if(!isShow) {
+			isShow = true;
+			document.getElementById('d1').style.display='';
+			document.getElementById('a1').innerText = "隱藏內容";
+		}
+		else {
+			isShow = false;
+			document.getElementById('d1').style.display='none';
+			document.getElementById('a1').innerText = "更多網站";
+		}			
+	}
+	</script>
+	<style type="text/css">
+		#DP1{
+			width: 19%;
+			height: auto;
+			padding: 5px;
+			/*margin-right: 5px;*/
+			float: left;
+			background-color: blue;
+			font-color:white;
+			border: 1px black solid;
+		}
+		#DP2{
+			width: 19%;
+			height: auto;
+			padding: 5px;
+			/*margin-right: 5px;*/
+			float: left;
+			background-color: blue;
+			font-color:white;
+			border: 1px black solid;
+		}
+		#DP3{
+			width: 19%;
+			height: auto;
+			padding: 5px;
+			/*margin-right: 5px;*/
+			float: left;
+			background-color: blue;
+			font-color:white;
+			border: 1px black solid;
+		}
+		#DP4{
+			width: 19%;
+			height: auto;
+			padding: 5px;
+			/*margin-right: 5px;*/
+			float: left;
+			background-color: blue;
+			font-color:white;
+			border: 1px black solid;
+		}
+		#DP5{
+			width: 19%;
+			height: auto;
+			padding: 5px;
+			/*margin-right: 5px;*/
+			float: left;
+			background-color: blue;
+			font-color:white;
+			border: 1px black solid;
+		}
+	</style>
+</body>
+</html>
